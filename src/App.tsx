@@ -1,5 +1,9 @@
+import Header from './components/Header/Header.tsx';
+
 function App() {
-  return <>pORTFOLIO</>;
+  return <>
+    <Header/>
+  </>;
 }
 
 export default App;
