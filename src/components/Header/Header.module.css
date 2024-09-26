@@ -1,34 +1,35 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #010409;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #010409;
 }
 
-li, a {
-    list-style: none;
-    text-decoration: none;
-    font-size: 16px;
-    color: aliceblue;
-    cursor: pointer;
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
 }
 
 menu {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .container {
-    width: 100%;
-    max-width: 1280px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
 }
