@@ -1,0 +1,3 @@
+interface LogoInterface {
+  children: string
+}

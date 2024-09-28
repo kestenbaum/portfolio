@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import Logo from '../Logo/Logo.tsx';
+
 import style from './Header.module.css';
 
 const menu = ['Home', 'Work', 'Skills', 'Contact'];
@@ -11,10 +13,7 @@ const Header = () => {
     <header>
       <div className={style.container}>
         <div className={style.header}>
-          <a className={style.logo} href="#">
-            <img src="/public/logo.png" alt="logo" />
-            O.Vovnenko
-          </a>
+          <Logo children="O.Vovnenko" />
           <menu className={isOpen ? style.active : undefined}>
             {menu.map((menu, idx) => (
               <li
